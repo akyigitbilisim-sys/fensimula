@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: var(--font-inter);
+  --font-outfit: var(--font-outfit);
+}
+
+@layer base {
+  body {
+    @apply font-inter text-slate-800 bg-slate-50;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-outfit;
+  }
+}
